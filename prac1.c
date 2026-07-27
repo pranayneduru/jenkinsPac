@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int n,i,j,temp;
 scanf("%d",&n);
@@ -12,5 +12,7 @@ for(j=0;j<7;j++)
 arr[j]==arr[j+1];
 }
 arr[j]=temp;
+}
+return 0;
 }
 
