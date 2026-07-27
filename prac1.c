@@ -13,6 +13,10 @@ arr[j]==arr[j+1];
 }
 arr[j]=temp;
 }
+for(i=0;i<7;i++)
+{
+printf("%d",arr[i]);
+}
 return 0;
 }
 
